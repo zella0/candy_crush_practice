@@ -1,4 +1,13 @@
-A local chain of candy stores wants to combine their sales data to calculate overall sales. Each store keeps track of their inventory sales in a slightly different manner. You were hired to write a program to combine the sales data to a normalized state to keep track of the sales totals. As a stretch goal, try to modify the program to not have separate functionality for each store data but instead allow for data in any format by watching for specific keys and expecting similar values.
+### Crushing Candy Code
+
+A local chain of candy stores wants to combine their sales data to calculate overall sales. Each store keeps track of their inventory sales in a slightly different manner. You were hired to write a program that combines the sales data and outputs an object with all the data so that trends and calculations can be discovered with ease.
+
+After creating a function to combine the data, create two additional functions, `getInventoryCountSold()` and `getGrossProfit()` which respectively get the total numbers of items sold and the total dollars from sales. Each item can optionally take a type of candy to return the numbers about that candy. If there's no argument passed, it should return the total numbers for all candy types. For example, `getInventoryCountSold('Banana Bunches')` should return 12.
+
+### Stretch:
+
+Modify the program to not have separate functionality for each store data but instead allow for data in any format by watching for specific keys and expecting similar values.
+
 
 <pre><code>
 var store1 = {
