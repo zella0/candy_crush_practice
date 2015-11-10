@@ -1,6 +1,6 @@
 ### Crushing Candy Code
 
-A local chain of candy stores has hired you to draw conclusions from there sales data. Each store keeps track of their inventory sales in a slightly different manner. Use the following data sets contained in data.js to complete the following exercises.
+A local chain of candy stores has hired you to draw conclusions from their sales data. This is made difficult by the fact that each store keeps track of their own inventory sales in a slightly different manner. Use the data sets contained in data.js to complete the following exercises.
 
 ### Exercises
 
