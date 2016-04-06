@@ -250,3 +250,10 @@ var store4 = {
         'sold on': ['2015-01-06', '2015-01-06', '2015-01-07', '2015-01-10']
       }
 }
+
+module.exports = {
+  store1: store1,
+  store2: store2,
+  store3: store3,
+  store4: store4
+}
