@@ -251,9 +251,4 @@ var store4 = {
       }
 }
 
-module.exports = {
-  store1: store1,
-  store2: store2,
-  store3: store3,
-  store4: store4
-}
+
