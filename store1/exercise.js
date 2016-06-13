@@ -28,7 +28,7 @@ var store1 = require('./store1-data.js');
 
 // Use a loop to calculate the total number of candies sold at store1.
 
-// In the previous exericse, where did you have to initialize the counter variable? Why?
+// In the previous exercise, where did you have to initialize the counter variable? Why?
 
 
 // *********** CHALLENGE *********** \\
