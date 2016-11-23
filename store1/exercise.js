@@ -20,6 +20,9 @@ var store1 = require('./store1-data.js');
 // Use `Object.keys()` to get an array of the dates that candies were sold at store1.
 
 
+// Use a loop to create a new array that contains the number of candies sold for each date _and_ each type of candy. 
+
+
 // Use a loop to calculate the total number of candies sold at store1.
 
 
