@@ -25,8 +25,18 @@ describe('Store1 Exercises', function() {
   })
   describe('#loopingData3()', function () {
     it('returns array of date strings', function () {
-      var result = ['2015-01-06', '2015-01-07', '2015-01-08', '2015-01-09', '2015-01-10']
-      assert.deepEqual(exercise.loopingData3(), result)
+      var dates = [
+        '2015-01-06',
+        '2015-01-07',
+        '2015-01-08',
+        '2015-01-09',
+        '2015-01-10'
+      ]
+      var result = exercise.loopingData3()
+      assert.equal(result.length, dates.length)
+      result.forEach(function(date) {
+        assert.notEqual(dates.indexOf(date), -1)
+      })
     })
   })
   describe('#loopingData4()', function () {

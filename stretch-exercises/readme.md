@@ -1,4 +1,4 @@
-# Ready for a a real challenge?
+# Ready for a real challenge?
 
  - For each store, create two objects:
     * The first one will use the candy names as the keys and the value will be another object containing the sale price and the quantities sold.
