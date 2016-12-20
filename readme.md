@@ -6,9 +6,9 @@ A local chain of candy stores has hired you to draw conclusions from their sales
 Clone the repo down to your local environment. Run `npm install` to get testing packages.
 
 ### Recommended execution of these exercises
-Write your code as functions that return the result and then run ```node test ./[foldername]``` on the command line.
+Write your code as functions that return the result and then run ```npm test ./[foldername]``` on the command line.
 
-Example: `node test ./store1`
+Example: `npm test ./store1`
 
 ### Tips
 * Be sure to review dot notation vs. bracket notation and when you need to use one over the other.

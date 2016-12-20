@@ -22,7 +22,7 @@ describe('Store4 Exercises', function() {
         'Banana Bunches'
       ]
       var result = exercise.loopingData1()
-      assert.equal(result.length, 4)
+      assert.equal(result.length, candies.length)
       result.forEach(function(candy) {
         assert.notEqual(candies.indexOf(candy), -1)
       })
