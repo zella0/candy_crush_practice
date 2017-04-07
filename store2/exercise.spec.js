@@ -29,7 +29,7 @@ describe('Store2 Exercises', function() {
         '2015-01-07': 1,
         '2015-01-08': 2,
         '2015-01-09': 2,
-        '2015-01-10': 3
+        '2015-01-10': 2
       }
       assert.deepEqual(exercise.loopingData1(), result)
     })
