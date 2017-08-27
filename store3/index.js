@@ -1,4 +1,4 @@
-// Hint: Don't forget to require in your data! Refer to store1 or store2 exercise.js files on how to do this.
+var store3 = require('./store3-data.js');
 
 //()()()()() ACCESSING DATA ()()()()()\\
 
@@ -35,7 +35,6 @@ function loopingData2() {
 
 }
 
-
 // Create a loop to iterate over the whole store3 variable to find out how many Peanut Butter Buttered Peanuts were sold over all dates. Return the result.
 function loopingData3() {
 
@@ -47,7 +46,6 @@ function loopingData3() {
 function challenge1() {
 
 }
-
 
 module.exports = {
   accessesingData1,

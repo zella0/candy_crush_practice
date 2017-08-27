@@ -1,6 +1,7 @@
-// Remember what goes here?
+var store4 = require('./store4-data.js');
 
 // ^^^^^^^^^^^^ ACCESSING DATA ^^^^^^^^^^^^
+
 // Return the cost of 'Dark Chocolate Crunchies' from store4
 function accessesingData1() {
 
@@ -10,7 +11,6 @@ function accessesingData1() {
 function accessesingData2() {
 
 }
-
 
 // ^^^^^^^^^^^^ LOOPING OVER DATA ^^^^^^^^^^^^
 // Create a loop to return an array of the candy names that cost more than $2.00
@@ -22,7 +22,6 @@ function loopingData1() {
 function loopingData2() {
 
 }
-
 
 // ^^^^^^^^^^^^ CHALLENGE ^^^^^^^^^^^^
 // Calculate how much money store4 made selling Peppermint Poppers. What about Caramel Twists? Each date represents 1 item sold. Round revenue to two decimal points.
@@ -40,7 +39,6 @@ function challenge2() {
 function challenge3() {
 
 }
-
 
 module.exports = {
   accessesingData1,

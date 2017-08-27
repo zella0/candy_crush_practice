@@ -21,7 +21,7 @@ function updatingData1() {
 
 // Set a variable equal to the 'Caramel Twists' sale dates in store2. Use pop to remove one of the sale dates for store2's 'Caramel Twists'. Does your variables value match up with what is in store2? Return your answer as a boolean and write a comment on why or why not.
 function updatingData2() {
-
+  
 }
 
 /////////// LOOPING OVER DATA ///////////
@@ -29,8 +29,8 @@ function updatingData2() {
 // Iterate over the store2 sale dates for 'Caramel Twists'. Use this to create an object containing dates as the key and the value as the quantity sold on that day.
 // Example:
 // {
-//   '2015-01-06': 4,
-//   '2015-01-07': 3,
+//   '2014-11-19': 4,
+//   '2014-11-20': 3,
 // }
 function loopingData1() {
 
@@ -52,7 +52,6 @@ function loopingData2() {
 function challenge1() {
 
 }
-
 
 module.exports = {
   accessesingData1,

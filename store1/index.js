@@ -7,12 +7,10 @@ function accessesingData1() {
 
 }
 
-
 // Return how many 'Mint Wafers' were sold on January 6th
 function accessesingData2() {
 
 }
-
 
 // *********** LOOPING OVER DATA *********** \\
 
@@ -32,7 +30,6 @@ function loopingData3() {
 
 }
 
-
 // Use a loop to calculate the total number of candies sold at store1.
 function loopingData4() {
 
@@ -48,7 +45,7 @@ function loopingData5() {
 // Calculate the total revenue of the candies sold by store1 on January 10th.
 // Be sure to return a number! Example `14.55`
 function challenge1() {
-  
+
 }
 
 module.exports = {

@@ -1,5 +1,5 @@
-var assert = require('assert')
-var exercise = require('./exercise')
+var assert = require('chai').assert
+var exercise = require('../store4')
 
 describe('Store4 Exercises', function() {
   describe('#accessesingData1()', function () {
@@ -7,6 +7,7 @@ describe('Store4 Exercises', function() {
       assert.deepEqual(exercise.accessesingData1(), 4.34)
     })
   })
+
   describe('#accessesingData2()', function () {
     it('returns 16', function () {
       assert.equal(exercise.accessesingData2(), 16)
@@ -28,6 +29,7 @@ describe('Store4 Exercises', function() {
       })
     })
   })
+
   describe('#loopingData2()', function () {
     it('returns object of candy names and price', function () {
       var result = {
@@ -43,17 +45,19 @@ describe('Store4 Exercises', function() {
     })
   })
 
-  describe('#challenge1()', function () {
+  xdescribe('#challenge1()', function () {
     it('returns array of two revenue numbers (rounded to two decimals)', function () {
       assert.deepEqual(exercise.challenge1(), [19.44, 3.30])
     })
   })
-  describe('#challenge2()', function () {
+
+  xdescribe('#challenge2()', function () {
     it('returns revenue rounded to two numbers', function () {
       assert.deepEqual(exercise.challenge2(), 39.30)
     })
   })
-  describe('#challenge3()', function () {
+
+  xdescribe('#challenge3()', function () {
     it('returns revenue rounded to two numbers', function () {
       assert.deepEqual(exercise.challenge3(), 21.70)
     })
