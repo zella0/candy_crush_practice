@@ -24,8 +24,7 @@ function loopingData2() {
 }
 
 // ^^^^^^^^^^^^ CHALLENGE ^^^^^^^^^^^^
-// Calculate how much money store4 made selling Peppermint Poppers. What about Caramel Twists? Each date represents 1 item sold. Round revenue to two decimal points.
-// Return your answer as an array: `[total1, total2]`
+// Calculate how much money store4 made selling Peppermint Poppers. What about Caramel Twists? Each date represents 1 item sold. Round revenue to two decimal points. Return your answer as an array: `[total1, total2]`
 function challenge1() {
 
 }

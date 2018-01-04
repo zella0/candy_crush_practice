@@ -1,10 +1,10 @@
 {
-  "name": "ccf-data-structures",
+  "name": "crushing-candy-code",
   "version": "1.0.0",
   "description": "A local chain of candy stores has hired you to draw conclusions from their sales data. This is made difficult by the fact that each store keeps track of their own inventory sales in a slightly different manner. Use the data sets contained in each folder to complete the exercises.",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/mocha"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
