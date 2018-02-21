@@ -54,7 +54,7 @@ describe('Store2 Exercises', function() {
         'Peppermint Poppers': '16.66',
         'Peanut Butter Buttered Peanuts': '3.58',
         'Berry Bites': '47.34',
-        'Caramel Twists': '5.00',
+        'Caramel Twists': '4.50',
         'Banana Bunches': '9.06'
       }
       assert.deepEqual(exercise.challenge1(), result)
