@@ -45,19 +45,19 @@ describe('Store4 Exercises', function() {
     })
   })
 
-  describe('#challenge1()', function () {
+  xdescribe('#challenge1()', function () {
     it('returns array of two revenue numbers (rounded to two decimals)', function () {
       assert.deepEqual(exercise.challenge1(), [19.44, 3.30])
     })
   })
 
-  describe('#challenge2()', function () {
+  xdescribe('#challenge2()', function () {
     it('returns revenue rounded to two numbers', function () {
       assert.deepEqual(exercise.challenge2(), 39.30)
     })
   })
 
-  describe('#challenge3()', function () {
+  xdescribe('#challenge3()', function () {
     it('returns revenue rounded to two numbers', function () {
       assert.deepEqual(exercise.challenge3(), 21.70)
     })
